@@ -57,17 +57,6 @@ export class About extends Component {
     </svg>
     Resumé
   </a>
-  
-  <button 
-    id="watch-now-btn" 
-    class="flex items-center gap-3 border border-zinc-800 bg-zinc-900/30 hover:border-zinc-500 text-white text-xs uppercase tracking-[0.2em] font-semibold py-3.5 px-8 rounded-full transition-all duration-300 cursor-pointer group"
-  >
-    <!-- Play Icon -->
-    <svg class="w-3.5 h-3.5 fill-current text-white transition-transform duration-300 group-hover:scale-110" viewBox="0 0 24 24">
-      <path d="M8 5v14l11-7z"/>
-    </svg>
-    Watch Now
-  </button>
 </div>
           </div>
 

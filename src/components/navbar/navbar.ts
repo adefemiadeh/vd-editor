@@ -78,7 +78,7 @@ export class Navbar extends Component {
             .map(
               (link, index) => `
             <div class="overflow-hidden py-1">
-              <a href="${link.url}" class="nav-item-link block text-zinc-500 hover:text-white text-4xl font-black uppercase tracking-tighter transition-colors duration-300 transform translate-y-full" style="transition-delay: ${index * 50}ms">
+              <a href="${link.url}" class="nav-item-link block text-zinc-500 hover:text-white text-2xl font-black uppercase tracking-tighter transition-colors duration-300 transform translate-y-full" style="transition-delay: ${index * 50}ms">
                 ${link.label}
               </a>
             </div>

@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
   // Navigation mapping paths
   const navLinks = [
     // { label: "Home", url: "#" },
-    { label: "Selected Reels", url: "#work" },
-    { label: "About Artist", url: "#about" },
+    { label: "Portfolio", url: "#portfolio" },
     { label: "Services", url: "#services" },
+    { label: "About Artist", url: "#about" },
     { label: "FAQ", url: "#faq" },
-    { label: "Get In Touch", url: "#contact" },
+    { label: "Contact", url: "#contact" },
   ];
 
   // ... keep existing heroData and portfolioProjects configurations exactly the same ...
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "https://assets.mixkit.co/videos/preview/mixkit-cinematic-mountain-landscape-with-a-river-42353-large.mp4",
     fallbackImageUrl:
       "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1925",
-    ctaText: "Explore Reel",
+    ctaText: "Explore Portfolio",
   };
 
   // Creative/Production Oriented FAQ Data Array

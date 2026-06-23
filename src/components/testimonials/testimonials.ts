@@ -2,9 +2,6 @@ import { Component } from "@/components/base/base.ts";
 import { type TestimonialItem } from "@/types/portfolio.ts";
 
 export class Testimonials extends Component {
-  bindEvents(): void {
-    throw new Error("Method not implemented.");
-  }
   private reviews: TestimonialItem[];
 
   constructor(targetId: string, reviews: TestimonialItem[]) {
@@ -12,30 +9,34 @@ export class Testimonials extends Component {
     this.reviews = reviews;
   }
 
+  /**
+   * Satisfies the base component lifecycle contract.
+   * Left intentionally blank as this layout operates as a purely presentational card grid.
+   */
+  public bindEvents(): void {
+    // Explicitly empty override to prevent base lifecycle execution crashes.
+  }
+
   render(): string {
     return `
       <section id="testimonials" class="w-full bg-black py-24 px-6 md:px-12 border-t border-zinc-900 select-none">
         <div class="max-w-7xl mx-auto">
           
-          <!-- Section Layout Header -->
           <div class="mb-16">
             <span class="text-zinc-600 text-xs uppercase tracking-[0.4em] font-bold block mb-3">Endorsements</span>
             <h2 class="text-white text-3xl md:text-5xl font-black uppercase tracking-tighter">Client Word</h2>
           </div>
 
-          <!-- Testimonial Dark Card Grid Framework -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             ${this.reviews
               .map(
                 (review) => `
               <div class="bg-zinc-900/40 border border-zinc-900/80 p-8 rounded-xl flex flex-col justify-between space-y-8 backdrop-blur-xs">
                 
-                <!-- Review Content: Clean Monospace Styling -->
                 <p class="text-zinc-300 font-mono text-sm tracking-tight leading-relaxed">
                   "${review.quote}"
                 </p>
 
-                <!-- Footer Identification Node -->
                 <div class="flex flex-col space-y-4">
                   <div class="w-full h-px bg-zinc-800/60"></div>
                   
@@ -50,7 +51,6 @@ export class Testimonials extends Component {
                     </span>
                   </div>
 
-                  <!-- Metadata Verification Subtitle Row -->
                   <div class="flex items-center gap-2 text-zinc-500 font-mono text-[11px] tracking-tight">
                     <span>${review.role}</span>
                     ${

@@ -14,7 +14,7 @@ export class Hero extends Component {
       <section class="relative w-full h-screen bg-black overflow-hidden flex flex-col justify-between p-6 md:p-12 select-none">
         
         <div class="absolute inset-0 w-full h-full z-0 overflow-hidden pointer-events-none">
-          <div class="absolute inset-0 bg-linear-to-b from-black/40 via-transparent to-black/80 z-10"></div>
+          <div class="absolute inset-0 bg-black/50 bg-linear-to-b from-black/40 via-transparent to-black/80 z-10"></div>
           <video 
             id="hero-reel"
             class="w-full h-full object-cover scale-[1.01] transition-transform duration-700"
@@ -50,7 +50,7 @@ export class Hero extends Component {
           </a>
 
           <div class="flex flex-col items-center gap-2">
-            <span class="text-[10px] text-zinc-500 tracking-[0.3em] uppercase vertical-text transform rotate-180 font-medium mb-1">Scroll</span>
+            
             <div class="w-px h-12 bg-zinc-700 relative overflow-hidden">
               <div class="absolute top-0 left-0 w-full h-1/2 bg-white animate-scroll-line"></div>
             </div>
@@ -77,7 +77,7 @@ export class Hero extends Component {
     if (discoverBtn) {
       discoverBtn.addEventListener("click", (e) => {
         e.preventDefault();
-        const targetSection = document.getElementById("work");
+        const targetSection = document.getElementById("portfolio");
         if (targetSection) {
           targetSection.scrollIntoView({ behavior: "smooth" });
         }
