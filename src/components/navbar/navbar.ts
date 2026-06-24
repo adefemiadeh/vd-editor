@@ -19,7 +19,7 @@ export class Navbar extends Component {
         <div class="flex items-center justify-between w-full md:hidden">
         <a href="#"
           <!-- Subtle Floating Mobile Brand Signature -->
-          <span class="text-white font-black uppercase text-sm tracking-widest mix-blend-difference">KØLD</span>
+          <span class="text-white font-black uppercase text-sm tracking-widest mix-blend-difference">ADEYEMI</span>
         </a>
           <button id="menu-toggle" class="group flex items-center gap-4 text-white focus:outline-none cursor-pointer mix-blend-difference" aria-label="Toggle Menu">
             <div class="flex flex-col gap-1.5 w-6 overflow-hidden">
@@ -37,7 +37,7 @@ export class Navbar extends Component {
           
           <!-- Left Logo Branding -->
           <a href="#" class="text-white text-xl md:text-2xl font-black tracking-tighter uppercase font-serif hover:opacity-80 transition-opacity duration-200">
-            køld
+            ADEYEMI
           </a>
 
           <!-- Right-Aligned Navigation Cluster -->

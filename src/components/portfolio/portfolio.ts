@@ -22,7 +22,7 @@ export class Portfolio extends Component {
       <section class="w-full bg-black pt-16 pb-12 overflow-hidden select-none relative">
         <div class="max-w-7xl mx-auto px-6 md:px-12 mb-6">
           <span class="text-zinc-600 text-[10px] uppercase tracking-[0.4em] font-bold block">
-            Trusted By Globally Recognized Brands
+            Trusted By Brands
           </span>
         </div>
         
@@ -56,9 +56,8 @@ export class Portfolio extends Component {
 
           <div class="relative w-full aspect-video bg-zinc-950 overflow-hidden rounded-2xl border border-zinc-900/80 shadow-[0_0_50px_rgba(0,0,0,0.8)] group mb-8">
             
-            ${
-              !hasVideoStarted
-                ? `
+            ${!hasVideoStarted
+        ? `
               <div class="absolute inset-0 w-full h-full z-20 transition-opacity duration-500">
                 <img 
                   src="https://img.youtube.com/vi/${currentProject.youtubeId}/maxresdefault.jpg" 
@@ -80,7 +79,7 @@ export class Portfolio extends Component {
                 </button>
               </div>
             `
-                : `
+        : `
               <iframe 
                 class="absolute inset-0 w-full h-full z-10" 
                 src="https://www.youtube.com/embed/${currentProject.youtubeId}?autoplay=1&rel=0" 
@@ -90,7 +89,7 @@ export class Portfolio extends Component {
                 allowfullscreen
               ></iframe>
             `
-            }
+      }
           </div>
 
           <div class="flex items-center justify-center gap-6 mt-4">

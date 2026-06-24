@@ -34,13 +34,18 @@ export class About extends Component {
             
             <div class="space-y-6 text-zinc-400 text-sm md:text-base tracking-wide leading-relaxed max-w-2xl">
               <p>
-                Toronto-based Post Lead & Editor with a passion for crafting compelling narratives in the dynamic marketing industry.
+                I do not edit for decoration; I manipulate human attention spans. Operating at the sharp 
+edge of high-end post-production, I engineer definitive visual assets for global brands 
+and premier creators. 
               </p>
               <p>
-                I blend creative vision with post-production expertise, specializing in editing, color grading, and leveraging technology to enhance workflows.
+                My creative signature balances aggressive editing cadences with 
+highly immersive, multi-layered acoustic soundscapes and seamless visual effects.
               </p>
               <p>
-                Known for my problem-solving abilities and collaborative approach, I lead diverse teams to turn creative ideas into tangible realities. Let's work together to create something exceptional!
+                Whether executing cinematic direction for commercial ad campaigns or architecting automated, 
+multi-platform short-form delivery pipelines, my work is optimized for a singular metric: 
+holding eyes on screens. Every keyframe is deliberate. Every cut is a pulse.
               </p>
             </div>
 

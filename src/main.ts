@@ -24,9 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ... keep existing heroData and portfolioProjects configurations exactly the same ...
   const heroData = {
-    title: "KOLDER",
-    subtitle:
-      "Filmmaker & Visual Artist pushing boundaries through creative editing",
+    title: "ADEYEMI ADEYANJU",
+    subtitle: "Post-Production Architect",
     videoUrl:
       "https://assets.mixkit.co/videos/preview/mixkit-cinematic-mountain-landscape-with-a-river-42353-large.mp4",
     fallbackImageUrl:
@@ -44,13 +43,13 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "f2",
-      question: "Do you travel for localized shoots?",
+      question: " What's your editing style?",
       answer:
-        "Yes, fully licensed for worldwide commercial production, drone piloting operational loops, and capturing raw narrative asset plates globally.",
+        "Fast-paced, emotive, and story-driven. I cut to the rhythm of the music and the feeling of the moment.",
     },
     {
       id: "f3",
-      question: "What editing software setups do you use?",
+      question: "What software do you use?",
       answer:
         "Core work paths rely heavily on DaVinci Resolve Studio for raw color grading pipeline stages, and the Adobe Creative Cloud Suite (Premiere Pro / After Effects) for composition stages.",
     },
@@ -67,11 +66,11 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       quote:
         "Thoroughly impressed by the depth and authenticity of the documentaries. Highly recommended for anyone serious about real-world narratives.",
-      author: "Michael Thompson",
+      author: "Michelle Thompson",
       avatarUrl:
         "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=150",
       role: "Freelancer",
-      verifiedPlatform: "instagram",
+      verifiedPlatform: null,
     },
     {
       quote:
@@ -79,8 +78,8 @@ document.addEventListener("DOMContentLoaded", () => {
       author: "Noluthando Zuma",
       avatarUrl:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150",
-      role: "@zuma.travels",
-      verifiedPlatform: "instagram",
+      role: "Content Creator",
+      verifiedPlatform: null,
     },
     {
       author: "Javier Fernandez",
