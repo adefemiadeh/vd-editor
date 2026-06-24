@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Solid luxury dark base matrix -->
+  <rect width="32" height="32" rx="6" fill="#09090b"/>
+  <!-- Stark white editorial monogram letter - Replace 'A' with your actual first initial -->
+  <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle" font-family="monospace, sans-serif" font-weight="900" font-size="16" fill="#ffffff" letter-spacing="-0.05em">A</text>
+</svg>
